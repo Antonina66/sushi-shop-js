@@ -1,5 +1,13 @@
 :root {
   --color-loght: #f2f4f6;
+  --color-text: #000000;
+  --color-text-secondary: #828282;
+  --color-white: #fff;
+  --color-main: #eb5757;
+
+  --spacing-small: 10px;
+  --spacing-medium: 20px;
+  --spacing-large: 30px;
 }
 
 * {
@@ -9,7 +17,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.7;
   background-color: var(--color-loght);
 }
